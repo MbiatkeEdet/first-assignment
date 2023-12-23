@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="form.html">FORM</a>
+        
+    </nav>
+</header>
+  <img src="images/Altschool Logo.jpg" width="100px" alt="">
+    
+    <form action="/signup" method="post">
+        <h1>Application Form</h1>
+        <p>Fill in your details</p>
+        <p>
+          <label>Title</label><br>
+          <label>
+            <input type="radio" name="title" value="mr">
+            Mr
+          </label>
+          <label>
+            <input type="radio" name="title" value="mrs">
+            Mrs
+          </label>
+          <label>
+            <input type="radio" name="title" value="miss">
+            Miss
+          </label>
+        </p>
+        <p>
+          <label>First name</label><br>
+          <input type="text" name="first_name">
+        </p>
+        <p>
+          <label>Last name</label><br>
+          <input type="text" name="last_name">
+        </p>
+        <p>
+          <label>Middle Name</label><br>
+          <input type="text" name="middle_name">
+        </p>
+        <p>
+          <label>Email</label><br>
+          <input type="email" name="email" required>
+        </p>
+        <p>
+          <label>Phone number</label><br>
+          <input type="tel" name="phone" required>
+        </p>
+        <p>
+          <label>Password</label><br>
+          <input type="password" name="password">
+        </p>
+        <p>
+          <label>Country</label><br>
+          <select>
+            <option>China</option>
+            <option>India</option>
+            <option>United States</option>
+            <option>Indonesia</option>
+            <option>Brazil</option>
+            <option>Nigeria</option>
+            <option value="">Ghana</option>
+          </select>
+        </p>
+        <h2>EDUCATIONAL QUALIFICATIONS</h2>
+        <label>Tertiary</label><br>
+          <label>
+            <input type="radio" name="bsc" value="bsc">
+            B.sc
+          </label>
+          <label>
+            <input type="radio" name="hnd" value="hnd">
+            HND
+          </label>
+          <label>
+            <input type="radio" name="nd" value="nd">
+            ND
+          </label>
+
+        <p>
+          <label>
+            <input type="checkbox" value="terms">
+            I agree to the <a href="/terms">terms and conditions</a>
+          </label>
+        </p>
+        <p>
+          <button>Sign up</button>
+          <button type="reset">Reset form</button>
+        </p>
+      </form>
+      
+
+</body>
+</html>
